@@ -1,0 +1,18 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "target": "es2017", // Ou uma versão mais recente, como "es2020"
+    "module": "commonjs",
+    "types": [
+      "cypress" // Isso informa ao VS Code para incluir os tipos do Cypress
+    ]
+  },
+  "include": [
+    "**/*.js",
+    "**/*.cy.js", // Certifique-se de incluir seus arquivos de teste
+    "cypress/**/*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

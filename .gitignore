@@ -1,0 +1,43 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Artefatos do Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/results/ # Se você estiver gerando relatórios de teste aqui
+cypress/report/   # Se você estiver gerando relatórios de teste aqui
+
+# Arquivos de ambiente sensíveis (se você usar)
+# Exemplo: Se você tiver um arquivo chamado 'cypress.env.json' com segredos
+# cypress.env.json
+
+# Arquivos temporários e de cache
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+tmp/
+
+# Arquivos de configurações do VS Code (opcional, configure para suas necessidades)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Outros arquivos de cache comuns
+.cache/
+build/
+dist/
+coverage/
+
+# Se você estiver usando o arquivo de lock do package (para Node.js)
+# Geralmente é bom incluir package-lock.json e yarn.lock para consistência,
+# mas se você tiver motivos para ignorar, pode colocar aqui.
+# package-lock.json
+# yarn.lock
